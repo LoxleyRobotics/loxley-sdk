@@ -1,0 +1,47 @@
+{
+  "name": "@loxley/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for Loxley — build, simulate, deploy and monetize robots on Robinhood Chain.",
+  "license": "MIT",
+  "author": "Loxley Labs",
+  "homepage": "https://loxley.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoxleyRobotics/loxley-sdk.git"
+  },
+  "bugs": "https://github.com/LoxleyRobotics/loxley-sdk/issues",
+  "keywords": [
+    "robotics",
+    "robinhood-chain",
+    "lox",
+    "web3",
+    "simulation",
+    "ota",
+    "royalties"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
