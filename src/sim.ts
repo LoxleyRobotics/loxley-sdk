@@ -36,7 +36,7 @@ export class Sim {
       onProgress?: (run: SimRun) => void;
     } = {}
   ): Promise<SimRun> {
-    const pollMs = opts.pollMs ?? 3_000;
+    const pollMs = opts.pollMs ?? 2_000;
     const timeoutMs = opts.timeoutMs ?? 30 * 60_000;
     const deadline = Date.now() + timeoutMs;
 
