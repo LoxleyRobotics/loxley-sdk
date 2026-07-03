@@ -77,7 +77,7 @@ export class Chain {
     hash: TxHash,
     opts: { pollMs?: number; timeoutMs?: number } = {}
   ): Promise<TxReceipt> {
-    const pollMs = opts.pollMs ?? 500; // 0.25s blocks — receipts land fast
+    const pollMs = opts.pollMs ?? 1_000; // 0.25s blocks — receipts land fast
     const timeoutMs = opts.timeoutMs ?? 30_000;
     const deadline = Date.now() + timeoutMs;
 
