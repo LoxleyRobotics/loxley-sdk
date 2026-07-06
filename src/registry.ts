@@ -45,7 +45,7 @@ export class Registry {
 
   /**
    * Fork an existing model into your namespace. The upstream's royalty
-   * split is preserved on the fork lineage — creators always get paid.
+   * split is preserved on the fork lineage — creators get paid.
    */
   fork(modelId: string, newName: string): Promise<RobotModel> {
     return this.request("POST", `/v1/registry/models/${modelId}/fork`, {
