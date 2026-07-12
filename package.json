@@ -1,6 +1,6 @@
 {
   "name": "@loxley/sdk",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Official TypeScript SDK for Loxley — build, simulate, deploy and monetize robots on Robinhood Chain.",
   "license": "MIT",
   "author": "Loxley Labs",
