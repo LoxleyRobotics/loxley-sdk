@@ -38,7 +38,7 @@ export function createRequest(opts: HttpOptions): RequestFn {
 
     const headers: Record<string, string> = {
       accept: "application/json",
-      "user-agent": "loxley-sdk/0.3",
+      "user-agent": "loxley-sdk/0.4",
       ...opts.headers,
     };
     if (opts.apiKey) headers.authorization = `Bearer ${opts.apiKey}`;
