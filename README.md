@@ -107,6 +107,6 @@ Node ≥ 18 (native `fetch`). Zero runtime dependencies.
 
 **Robotics for the many, not the few.**
 
-[loxley.work](https://loxley.work) · [Discord](https://discord.gg/loxley) · [Litepaper](https://loxley.work/litepaper)
+[loxley.work](https://loxley.work) · [Loxley on GitHub](https://github.com/LoxleyRobotics)
 
 </div>
