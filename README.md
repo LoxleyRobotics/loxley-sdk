@@ -2,7 +2,7 @@
 
 # @loxley/sdk
 
-**Official TypeScript SDK for [Loxley](https://loxley.dev) — open robotics on Robinhood Chain.**
+**Official TypeScript SDK for [Loxley](https://loxley.work) — open robotics on Robinhood Chain.**
 
 Build, simulate, deploy and monetize robots — with every model, skill and dataset owned on-chain.
 
@@ -65,8 +65,8 @@ await lox.deploy.createRollout({ manifest, fleet: "warehouse-eu-1" });
 
 | | REST | RPC |
 | --- | --- | --- |
-| `mainnet` (default) | `api.loxley.dev` | `rpc.robinhood.exchange` |
-| `testnet` | `api.testnet.loxley.dev` | `rpc.testnet.robinhood.exchange` |
+| `mainnet` (default) | `api.loxley.work` | `rpc.robinhood.exchange` |
+| `testnet` | `api.testnet.loxley.work` | `rpc.testnet.robinhood.exchange` |
 
 ```ts
 const lox = new LoxleyClient({ network: "testnet" });
@@ -107,6 +107,6 @@ Node ≥ 18 (native `fetch`). Zero runtime dependencies.
 
 **Robotics for the many, not the few.**
 
-[loxley.dev](https://loxley.dev) · [Discord](https://discord.gg/loxley) · [Litepaper](https://loxley.dev/litepaper)
+[loxley.work](https://loxley.work) · [Discord](https://discord.gg/loxley) · [Litepaper](https://loxley.work/litepaper)
 
 </div>

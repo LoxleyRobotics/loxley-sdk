@@ -4,7 +4,7 @@
   "description": "Official TypeScript SDK for Loxley — build, simulate, deploy and monetize robots on Robinhood Chain.",
   "license": "MIT",
   "author": "Loxley Labs",
-  "homepage": "https://loxley.dev",
+  "homepage": "https://loxley.work",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LoxleyRobotics/loxley-sdk.git"

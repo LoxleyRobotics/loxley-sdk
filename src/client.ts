@@ -8,7 +8,7 @@ import { Sim } from "./sim.js";
 import type { Network } from "./types.js";
 
 export interface LoxleyClientOptions {
-  /** API key from https://loxley.dev/settings/keys */
+  /** API key from https://loxley.work/settings/keys */
   apiKey?: string;
   network?: Network;
   /** Override the REST endpoint (self-hosted gateways). */
@@ -18,8 +18,8 @@ export interface LoxleyClientOptions {
 }
 
 const API_URLS: Record<Network, string> = {
-  mainnet: "https://api.loxley.dev",
-  testnet: "https://api.testnet.loxley.dev",
+  mainnet: "https://api.loxley.work",
+  testnet: "https://api.testnet.loxley.work",
 };
 
 const RPC_URLS: Record<Network, string> = {
